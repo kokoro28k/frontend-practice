@@ -18,6 +18,7 @@ console.log("未完了のToDo:", getIncompleteTodos(todos));
   { id: 3, text: "Next.jsを学ぶ", completed: false },
 ];
 
+
 // 3.指定されたIDのToDoを完了済みにする関数
 function completetodo(todoList, todoId) {
   return todoList.map((todo) => {
