@@ -6,7 +6,7 @@ addButton.addEventListener("click", function () {
   // テキストの取得
   const todoText = todoInput.value;
 
-  // 入力が空の場合は何もしない
+  // 入力が空の場合は何もしない(今回はなくても成立する)
   if (todoList === "") return;
 
   const newTodoItem = document.createElement("li");
